@@ -1,45 +1,92 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset=utf-8>
-  <title>si2525-aについて</title>
-    <!-- Google Fonts: M PLUS Rounded 1c -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>si2525-a 公式サイト - ホーム</title>
+  
+  <!-- Google Fonts: M PLUS Rounded 1c -->
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
   
-  <style>
-    body {
-      font-family: 'M PLUS Rounded 1c', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(135deg, #ADD8E6, #E6E6FA); 
-      color: #333;
-      text-align: center;
-</style> 
+  <!-- Font Awesome (アイコン用) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+  <!-- 外部CSSファイルの読み込み -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<section>
-<img src="si2v2.png">
-  <h1>si2525-a</h1>
-  <p>Scratch歴約3年のScratcher。</p>
-  <a href="https://scratch.mit.edu/users/si2525-a/" target="_blank">si2525-a | Scratchページ</a>
-<h1>フォロワーの皆様紹介</h1>
-<h4>現在、準備中です。</h4> 
-<h5>(プロフィール写真を掲載予定)</h5>
-<h2>自己紹介</h2>
-<h4>趣味:ゲーム、Youtube、読書</h4>
-<h4>(特に)好きな食べ物:ラーメン、寿司</h4>
-<h1>開発/担当作品紹介</h2>
-<h3>「ピンポンゲーム」シリーズ</h3>
-<h4>(最新バージョン:Ver.4.3)</h4>
-<h3>「プラットフォーマー　V2.0a」</h3>
-<h5>(現在、更新停止中)</h5>
-<h2>スタジオ
-<h3>ピンポンゲームスタジオ</h3>
-<h5>作品数:30    初心者歓迎    傾向1位    人気最高15位</h5>
-</section>
-<footer>
-    <p> (c)2021-2025 si2525-a R7.02<p>
-    <p> このページは、si2525-aがテスト用途で開発しているホームページです。 <p>
-　</footer>
+
+<div class="container">
+
+  <!-- ナビゲーションメニュー -->
+  <nav>
+    <ul class="navbar">
+      <li><a href="#about">自己紹介</a></li>
+      <li><a href="#works">開発作品</a></li>
+      <li><a href="#studio">スタジオ</a></li>
+      <li><a href="#contact">協力依頼</a></li>
+    </ul>
+  </nav>
+
+  <!-- ヘッダーエリア -->
+  <header>
+    <img src="si.jpeg" alt="プロフィール画像" class="profile-img">
+    <h1>si2525-a</h1>
+    <p>4年間培ってきたプログラミングの力を活かし、ゲーム作りに挑戦！</p>
+    <a href="https://https://scratch.mit.edu/users/si2525-a/" class="btn" target="_blank" rel="noopener noreferrer">作品公開ページ</a>
+  </header>
+
+  <main>
+    <!-- 自己紹介セクション -->
+    <section id="about">
+      <h2>自己紹介</h2>
+      <div class="hobbies">
+        <span class="hobby-tag"><i class="fa-solid fa-gamepad"></i> ゲーム</span>
+        <span class="hobby-tag"><i class="fa-solid fa-tv"></i> Youtube</span>
+        <span class="hobby-tag"><i class="fa-solid fa-book-open"></i> 読書</span>
+      </div>
+      <h4 style="margin-top: 20px;"><strong>特に好きな食べ物:</strong> ラーメン、寿司</h4>
+    </section>
+
+    <!-- 開発作品紹介セクション -->
+    <section id="works">
+      <h2>開発/担当作品紹介</h2>
+      
+      <div class="projects-container">
+        <div class="project">
+          <h3>「ピンポンゲーム」シリーズ</h3>
+          <h4>(最新バージョン:Ver.4.3)</h4>
+        </div>
+        
+        <div class="project">
+          <h3>「プラットフォーマー	V2.0a」</h3>
+          <h5>(現在、更新停止中)</h5>
+        </div>
+      </div>
+    </section>
+    
+    <!-- スタジオ紹介セクション -->
+    <section id="studio">
+        <h2>スタジオについて</h2>
+        <h4><strong>メンバー紹介:</strong> 現在、準備中です。(プロフィール写真を掲載予定)</h4>
+        <h5><strong>累計作品数:</strong> 30</h5>
+    </section>
+
+    <!-- 業務委託セクション -->
+    <section id="contact">
+      <h2>協力作業の依頼</h2>
+      <p>こちらの作品のコメント欄からお問い合わせください。プロジェクト作成・画像制作など、(自分ができる限り)何でもお引き受けします！</p>
+      <a href="https://scratch.mit.edu/studios/35503276/comments" class="btn" target="_blank" rel="noopener noreferrer">依頼ページへ</a>
+    </section>
+  </main>
+
+  <!-- フッターエリア -->
+  <footer>
+    <p> &copy; 2021-2025 si2525-a	Ver.3 </p>
+    <p> このページは、テスト用途で開発しているホームページです。 </p>
+  </footer>
+
+</div>
+
 </body>
 </html>
